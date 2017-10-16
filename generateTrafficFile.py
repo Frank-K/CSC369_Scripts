@@ -23,7 +23,8 @@ def main():
 
 
 def generateFile(numCars):
-
+	"""Creates a file with numCars entries. Each entry has id, in_dir, out_dir."""
+	
 	with open('trafficFile.txt', 'w') as f:
 
 		for x in range (numCars):
